@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export const store = new Vuex.Store({
     state: {
-        url: 'http://jsonplaceholder.typicode.com/',
+        url: 'https://jsonplaceholder.typicode.com/',
         allCard:[],
     },
     mutations: {
